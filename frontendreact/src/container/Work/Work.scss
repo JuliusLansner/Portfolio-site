@@ -27,10 +27,10 @@
             background-color: var(--secondary-color);
             color: #fff;
         }
-        @media screen and (min-width:2000px){
-            padding: 1rem 2rem;
-            border-radius: 0.85rem;
-        }
+        // @media screen and (min-width:2000px){
+        //     padding: 1rem 2rem;
+        //     border-radius: 0.85rem;
+        // }
     }
     .item-active{
         background-color: var(--secondary-color);
@@ -59,11 +59,11 @@
         &:hover{
             box-shadow: 0 0 25px rgba(0,0,0,0.2)
         }
-        @media screen and (min-width: 2000px){
-            width: 470px;
-            padding: 1.25rem;
-            border-radius: 0.75rem;
-        }
+        // @media screen and (min-width: 2000px){
+        //     width: 470px;
+        //     padding: 1.25rem;
+        //     border-radius: 0.75rem;
+        // }
         @media screen and (max-width: 300px){
             width: 100%;
             margin: 1rem;
@@ -84,9 +84,9 @@
         object-fit: cover;
     }
 
-    @media screen and (min-width: 2000px){
-        height:350px;
-    }
+    // @media screen and (min-width: 2000px){
+    //     height:350px;
+    // }
 }
 
 .app__work-hover{
